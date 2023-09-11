@@ -827,7 +827,7 @@ header > .container {
     .txt {
       color: white;
       & p {
-        width: 450px;
+        width: 350px;
       }
     }
   }
