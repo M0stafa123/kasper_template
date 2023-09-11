@@ -433,7 +433,7 @@ header > .container {
 /* end gif */
 /* start about */
 .about {
-  padding: 60px 0 0 0;
+  padding: 60px;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -499,7 +499,7 @@ header > .container {
     font-weight: 100;
   }
   & > div {
-    min-width: 450px;
+    min-width: 350px;
   }
   .testimonials {
     position: relative;
@@ -911,6 +911,11 @@ footer {
   }
 }
 @media (max-width: 760px) {
+  .head {
+    & p {
+      width: 100%;
+    }
+  }
   header .header-2 > i:hover ~ .links {
     display: flex !important;
   }
