@@ -920,6 +920,7 @@ footer {
   }
   header .header-2 > i:hover ~ .links {
     display: flex !important;
+    width: 100%;
   }
   .header-2 {
     .fa-bars {
@@ -936,7 +937,7 @@ footer {
       max-width: 660px;
       gap: 0 !important;
       z-index: 4;
-      background-color: #00000080;
+      background-color: #000000eb;
       & a {
         width: 100% !important;
         text-align: start !important;
