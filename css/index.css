@@ -826,8 +826,9 @@ header > .container {
     }
     .txt {
       color: white;
+      align-self: flex-start;
       & p {
-        width: 350px;
+        width: 250px;
       }
     }
   }
@@ -968,6 +969,8 @@ footer {
     width: 100%;
     z-index: 1;
     padding: 30px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
   }
   .services {
     .col {
