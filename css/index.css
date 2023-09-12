@@ -345,6 +345,7 @@ header > .container {
     .work {
       display: flex;
       flex-flow: wrap;
+      justify-content: center;
 
       & img {
         max-width: 100%;
@@ -787,13 +788,15 @@ header > .container {
     position: relative;
     gap: 40px;
     flex-flow: wrap;
+    width: 100%;
     .input {
       display: flex;
       position: relative;
       justify-content: space-between;
       border: 1px solid white;
       background-color: transparent;
-      width: 100%;
+      min-width: fit-content;
+      width: 60%;
       & i {
         color: white;
         &::before {
