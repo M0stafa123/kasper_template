@@ -808,6 +808,7 @@ header > .container {
       & input {
         width: calc(100% - 180px);
         min-width: 50px;
+        color: white;
 
         caret-color: var(--main-color);
         padding: 10px;
