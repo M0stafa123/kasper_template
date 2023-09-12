@@ -438,10 +438,14 @@ header > .container {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  position: relative;
   overflow: hidden;
+  & > div:first-of-type {
+    margin-bottom: 300px;
+  }
   & > div:last-of-type {
-    position: relative;
-    top: 120px;
+    position: absolute;
+    bottom: -70px;
   }
   & img {
     max-width: 100%;
@@ -778,7 +782,7 @@ header > .container {
   .container {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
     z-index: 1;
     position: relative;
     gap: 40px;
@@ -786,6 +790,7 @@ header > .container {
     .input {
       display: flex;
       position: relative;
+      justify-content: space-between;
       border: 1px solid white;
       background-color: transparent;
       width: 100%;
@@ -814,7 +819,7 @@ header > .container {
         }
       }
       & button {
-        padding: 20px 40px;
+        padding: 20px 20px;
         background-color: var(--main-color);
         color: white;
         border: none;
@@ -828,7 +833,7 @@ header > .container {
       color: white;
       align-self: flex-start;
       & p {
-        width: 250px;
+        width: 350px;
       }
     }
   }
@@ -994,6 +999,23 @@ footer {
   }
   .contact .form div:last-of-type {
     text-align: center;
+    flex: none;
+  }
+  .subscrip {
+    .input {
+      width: 100%;
+    }
+    .txt {
+      & p {
+        width: 250px !important;
+        text-align: center;
+      }
+    }
+  }
+  .about {
+    & > div:first-of-type {
+      margin-bottom: 150px;
+    }
   }
 }
 
